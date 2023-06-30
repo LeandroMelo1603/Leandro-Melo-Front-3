@@ -12,6 +12,8 @@ code {
     monospace;
 }
 .favButton{
+
+  margin-top: 10px;
   background-color: rgba(136, 136, 136, 0.116);
   padding: 10px;
   border: none;
@@ -26,8 +28,28 @@ h1{
 nav{
   display: flex;
   width: 80vw;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 1rem;
+}
+
+.caja-vacia {
+width: 50px;
+height: 50px;
+}
+
+.inicio-dh{
+  display: flex;
+}
+
+.loguito{
+  width: 50px ;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.links {
+  display: flex;
 }
 
 a{
@@ -41,6 +63,7 @@ a:hover{
 } 
 
 footer {
+  
   display: flex;
   justify-content: center;
   text-align: center;
@@ -56,9 +79,41 @@ footer > img{
   width: 200px;
   margin: 0;
 }
+
+.DH {
+  display: flex;
+}
+
+.DH-IMG {
+  width: 200px;
+  height: 40px;
+  margin-top: 6px;
+}
+
+footer .socialMedia {
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
+  margin-left: 10px;
+
+
+}
+
+.socialMediaBox {
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+}
+
 footer > p{
   margin: 0;
   padding-top: 0.7rem;
+}
+
+.footer-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 form{
@@ -69,6 +124,7 @@ form{
   height: 100px;
   margin: 0 auto;
 }
+
 
 .card{
   display: flex;
@@ -94,6 +150,7 @@ form{
   margin: 0 auto;
 }
 
+
 table {
  border-collapse: collapse;
     border-spacing: 0;
@@ -112,6 +169,22 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+
+
+.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-theme a {
+  color: white;
+}
+
+.dark-theme > a {
+  color: white;
+}
+
 
 .dark{
   background-color: #12121296;
